@@ -1,0 +1,19 @@
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;  
+    &lt;head&gt;
+	    &lt;style&gt;
+            p[text="red"]{color:white; background-color:red;}
+            p[text~="b"]{color:white; background-color:blue;}
+            p[text|="a1"]{color:white; background-color:black;}
+            p[text*="ong"]{color:white; background-color:gray;}
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p text="red"&gt;텍스트 매칭 속성&lt;/p&gt;
+        &lt;p text="a b c"&gt;리스트 매칭속성&lt;/p&gt;
+        &lt;p text="a1-a2-a3"&gt;텍스트 끝 매칭속성&lt;/p&gt;
+        &lt;p text="Seongyong Hong"&gt;택스트 패턴 매칭속성&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>

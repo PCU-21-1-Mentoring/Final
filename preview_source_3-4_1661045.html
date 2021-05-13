@@ -1,0 +1,32 @@
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;style&gt;
+            p[properties="a1"]{
+                color:white;
+                background-color:red;
+            }
+            p[properties~="bbb"]{
+                color:white;
+                background-color:blue;
+            }
+            p[properties$=".jpg"]{
+                color:white;
+                background-color:black;
+            }
+            p[properties*="aac"]{
+                color:white;
+                background-color:gray;
+            }
+        &lt;/style&gt;
+        &lt;title&gt;CSS 1-4&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p properties="a1"&gt;텍스트 매칭 속성&lt;/p&gt;
+        &lt;p properties="aaa bbb ccc"&gt;리스트 매칭 속성&lt;/p&gt;
+        &lt;p properties="img/pic.jpg"&gt;텍스트 끝 매칭 속성&lt;/p&gt;
+        &lt;p properties="isaac Lim"&gt;텍스트 패턴 매칭 속성&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>
