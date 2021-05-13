@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=swap');
+#subject{
+    position:relative;
+    text-align:center;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size:150%;
+}
+
+#source_title, #result_title{
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+a{
+    text-decoration:none;
+    color:#0000FF;
+    outline: none;
+}
+
+.btn_left{
+    visibility: hidden;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox] + label {
+    display:inline-block;
+    padding: 0 0 0 0px;
+    background:url(./arrow_right.png) no-repeat;
+    height: 50px;
+    width: 50px;
+}
+
+input[type=checkbox]:checked + label {
+    background:url(./arrow_left.png) no-repeat;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+}
+
+
+.btn_right:checked ~ .side_bar{       /*마우스 올렸을때 좌측 사이드바 나오도록 설정*/
+    left:0;
+}
+
+span{
+    position:absolute;
+}
+
+nav{
+    float:left;
+}
+
+.icon_home{
+    float: left;
+}
+
+ul{
+    margin-left: 50px;
+    padding-right: 10px;
+}
+
+p > a{
+    color:#a4a4a4;
+}
+
+ol{
+    padding-left:0;
+    margin-left:0;
+    visibility: true;
+}
+
+.side_bar{
+    float:left;
+    position:sticky;
+    margin-left:0px;
+    padding-right:10px;
+    width:auto;
+    height:100%;
+    border-right: 2px solid #52616a;
+}
+
+.side_bar h2{
+    border-bottom:2px ridge #000000;
+}
+
+.side_bar h3{
+    border-bottom:1px ridge #000000;
+}
+
+section{
+  position:relative;
+  margin-left: 170%;        /*반응형으로 수정 필요*/
+  height : 100%;
+}
+
+#wrap{
+    width:500px;
+}
+
+#source_title{
+    width:300px;
+}
+
+iframe{
+    height: 600px;
+    width: 600px;
+}
+
+#source_content{
+    height:605px;
+    width:605px;
+    border:3px ridge #000000;
+}
+
+a:hover{
+    color:red;
+}
