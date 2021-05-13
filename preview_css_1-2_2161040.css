@@ -1,0 +1,31 @@
+p:first-of-type {
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+}
+p:nth-child(2n+1) {
+    background-color:gray;
+}
+p:nth-child(2n) {
+    background-color: teal;
+}
+p:last-of-type {
+    background-color: teal;
+    color: white;
+    font-size: 25px;
+}
+article {
+        background-color: yellow;
+}
+div {
+    background-color: peru;
+    color: white;
+}
+h2 {
+    background-color: black;
+    color: white;
+}
+h3 {
+    background-color: black;
+    color: white;
+}

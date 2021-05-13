@@ -1,0 +1,37 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid;
+}
+
+ul {
+    border: 1px dotted;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-indent: 1em;
+}
+
+h2 {
+    color: blue;
+    text-shadow: skyblue;
+}
+
+footer {
+    background: orange;
+    border-radius: 20px;
+}
