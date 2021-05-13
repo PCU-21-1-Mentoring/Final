@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p[properties="a1"]{
+                color:white;
+                background-color:red;
+            }
+            p[properties~="bbb"]{
+                color:white;
+                background-color:blue;
+            }
+            p[properties$=".jpg"]{
+                color:white;
+                background-color:black;
+            }
+            p[properties*="aac"]{
+                color:white;
+                background-color:gray;
+            }
+        </style>
+        <title>CSS 1-4</title>
+    </head>
+    <body>
+        <p properties="a1">텍스트 매칭 속성</p>
+        <p properties="aaa bbb ccc">리스트 매칭 속성</p>
+        <p properties="img/pic.jpg">텍스트 끝 매칭 속성</p>
+        <p properties="isaac Lim">텍스트 패턴 매칭 속성</p>
+    </body>
+</html>

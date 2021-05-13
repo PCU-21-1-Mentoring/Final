@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <meta charset="utf-8">
+    <head>
+        <style>
+            p[text="y"] {
+                background-color: red;
+                color: white;
+            }
+            p[text~="b"] {
+                background-color: blue;
+                color: white;
+            }
+            p[text$=".png"] {
+                background-color: black;
+                color: white;
+            }
+            p[text*="qwer"] {
+                background-color: gray;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <p text="y">텍스트 매칭 속성</p>
+        <p text="a b c">리스트 매칭 속성</p>
+        <p text="dkafj.png">텍스트 끝 매칭 속성</p>
+        <p text="qwerrtyui">텍스트 패턴 매칭 속성</p>
+    </body>
+</html>

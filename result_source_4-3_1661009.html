@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>4-03 html</title>
+  <style>
+    div{
+      width: 400px;
+      height: 100px;
+      margin-bottom: 100px;
+    }
+    .static{
+      background: skyblue;
+      position: static;
+    }
+    .dynamic{
+      background: orange;
+      left : 50px;
+      position: relative;
+    }
+    .absolute{
+      background: yellow;
+      position: absolute;
+      left: 100px;
+    }
+    .fix{
+      background: green;
+      position: fixed;
+      top: 600px;
+      left:150px;
+    }
+  </style>
+</head>
+<body>
+  <div class="static">
+    정적 위치 사용
+  </div>
+  <div class="dynamic">
+    상대 위치 사용
+  </div>
+  <div class="absolute">
+    절대 위치 사용
+  </div>
+  <div class="fix">
+    고정 위치 사용
+  </div>
+</body>
+</html>

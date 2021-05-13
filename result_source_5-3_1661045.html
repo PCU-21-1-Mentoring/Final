@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>survey4.html</title>
+	<link href="survey4.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<header class="class1"><h1>설문지</h1></header>
+		<Headtitle>
+		<p>소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.</p>
+		</Headtitle>
+		<hr/>
+	<section>
+	<article>
+		<form>
+		<p><SurveyName>학년</SurveyName>
+			<SurveySelect>
+			<input type="radio" name="year" value="1" checked>1학년
+			<input type="radio" name="year" value="2">2학년
+			<input type="radio" name="year" value="3">3학년
+			<input type="radio" name="year" value="4">4학년
+			</SurveySelect>
+		</p>
+		<p><SurveyName>성별</SurveyName>
+			<SurveySelect>
+			<input type="radio" name="sex" value="male">남
+			<input type="radio" name="sex" value="female" checked>여
+			</SurveySelect>
+		</p>
+		<p><SurveyName>관심분야</SurveyName>
+			<select name="subjects">
+				<option value="1" selected>모바일 소프트웨어</option>
+				<option value="2">컴퓨터 소프트웨어</option>
+				<option value="3">인공지능</option>
+			</select>
+		</p>
+		<p><SurveyName>진로</SurveyName>
+			<SurveySelect>
+			<input type="checkbox" name="career" value="develop" checked>개발
+			<input type="checkbox" name="career" value="plan">기획
+			<input type="checkbox" name="career" value="marketing">영업
+			<input type="checkbox" name="career" value="startup">창업
+			</SurveySelect>
+		</p>
+		<p><SurveyName>남기고 싶은 말</SurveyName>
+			<textarea rows="10" cols="50" placeholder="글을 남겨주세요"></textarea>
+		</p>
+		</form>
+	</article>
+	</section>
+</body>
+<footer>
+	<p>Copyright 2019 by LimIsaac</p>
+</footer>
+</html>

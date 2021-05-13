@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS 4-3</title>
+        <style>
+            div{
+                width :400px;
+                height : 100px;
+            }
+            .d1{
+                position : static;
+                background-color: aqua;
+            }
+            .d2{
+                position : relative;
+                background-color : orange;
+                left : 50px;
+                top : 50px;
+            }
+            .d3{
+                position : absolute;
+                background-color : yellow;
+                left : 100px;
+                top : 300px;
+            }
+            .d4{
+                position : fixed;
+                background-color : green;
+                left : 150px;
+                top : 450px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="d1">정적 위치 사용</div>
+        <div class="d2">상대 위치 사용</div>
+        <div class="d3">절대 위치 사용</div>
+        <div class="d4">고정 위치 사용</div>
+    </body>
+</html>

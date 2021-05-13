@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+	    <style>
+            p[text="red"]{color:white; background-color:red;}
+            p[text~="b"]{color:white; background-color:blue;}
+            p[text|="a1"]{color:white; background-color:black;}
+            p[text*="ong"]{color:white; background-color:gray;}
+        </style>
+    </head>
+    <body>
+        <p text="red">텍스트 매칭 속성</p>
+        <p text="a b c">리스트 매칭속성</p>
+        <p text="a1-a2-a3">텍스트 끝 매칭속성</p>
+        <p text="Seongyong Hong">택스트 패턴 매칭속성</p>
+    </body>
+</html>

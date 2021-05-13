@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS 1-4</title>
+        <style>
+            p[text="red"] {
+                color: white;
+                background-color:red;
+            }
+            p[text~="cc"] {
+                color: white;
+                background-color:blue;
+            }
+            p[text$=".png"] {
+                color: white;
+                background-color:black;
+            }
+            p[text*="suj"] {
+                color: white;
+                background-color:gray;
+            }
+        </style>
+    </head>
+    <body>
+        <p text="red">텍스트 매칭 속성</p>
+        <p text="aa bb cc">리스트 매칭 속성</p>
+        <p text="img/pic.png">텍스트 끝 매칭 속성</p>
+        <p text="kimsujin">텍스트 패턴 매칭 속성</p>
+    </body>
+</html>
